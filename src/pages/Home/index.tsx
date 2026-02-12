@@ -2,20 +2,20 @@ import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
 
 import heroSvg from "../../assets/hero.png";
 
-import expressoTradicional from "../../assets/Expresso.png";
-import expressoAmericano from "../../assets/Americano.png";
-import expressoCremoso from "../../assets/Expresso Cremoso.png";
-import expressoGelado from "../../assets/Café Gelado.png";
-import cafeComLeite from "../../assets/Café com Leite.png";
-import latte from "../../assets/Latte.png";
-import capuccino from "../../assets/Capuccino.png";
-import macchiato from "../../assets/Macchiato.png";
-import mocaccino from "../../assets/Mochaccino.png";
-import chocolateQuente from "../../assets/Chocolate Quente.png";
-import cubano from "../../assets/Cubano.png";
-import havaiano from "../../assets/Havaiano.png";
-import arabe from "../../assets/Árabe.png";
-import irlandes from "../../assets/Irlandês.png";
+import expressoTradicional from "../../assets/expresso.png";
+import expressoAmericano from "../../assets/americano.png";
+import expressoCremoso from "../../assets/expresso-cremoso.png";
+import expressoGelado from "../../assets/cafe-gelado.png";
+import cafeComLeite from "../../assets/cafe-com-leite.png";
+import latte from "../../assets/latte.png";
+import capuccino from "../../assets/capuccino.png";
+import macchiato from "../../assets/macchiato.png";
+import mocaccino from "../../assets/mochaccino.png";
+import chocolateQuente from "../../assets/chocolate-quente.png";
+import cubano from "../../assets/cubano.png";
+import havaiano from "../../assets/havaiano.png";
+import arabe from "../../assets/arabe.png";
+import irlandes from "../../assets/irlandes.png";
 
 import { Item } from "./components/Item";
 import { CoffeeCard } from "./components/CoffeeCard";

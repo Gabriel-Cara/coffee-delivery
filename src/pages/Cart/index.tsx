@@ -94,7 +94,7 @@ export function Cart() {
           >
             <Input
               placeholder="CEP"
-              className="max-w-[12.5rem]"
+              className="flex-1 max-w-[12.5rem]"
               required
               {...register("cep")}
             />
@@ -106,11 +106,11 @@ export function Cart() {
               {...register("street")}
             />
             {errors.street && <span className="text-red-500">{errors.street.message}</span>}
-            <div className="flex gap-3">
+            <div className="flex flex-col md:flex-row gap-3">
               <Input
                 type="text"
                 placeholder="Número"
-                className="max-w-[12.5rem]"
+                className="flex-1 w-full md:max-w-[12.5rem]"
                 required
                 {...register("number")}
               />
@@ -130,10 +130,10 @@ export function Cart() {
                 </label>
               </div>
             </div>
-            <div className="flex gap-3">
+            <div className="flex flex-col md:flex-row gap-3">
               <Input
                 placeholder="Bairro"
-                className="max-w-[12.5rem]"
+                className="flex-1 w-full md:max-w-[12.5rem]"
                 required
                 {...register("neighborhood")}
               />
@@ -194,7 +194,7 @@ export function Cart() {
               </p>
             </div>
           </header>
-          <div className="flex gap-4 mt-8">
+          <div className="flex flex-col md:flex-row gap-4 mt-8">
             <Radio
               icon={CreditCard}
               tag="credit"
@@ -219,7 +219,7 @@ export function Cart() {
       </aside>
 
       {/* CART */}
-      <aside className="min-w-[28rem]">
+      <aside className="bg-base-card rounded-tr-4xl rounded-tl-md rounded-bl-4xl rounded-br-md p-10 mt-4 md:min-w-[28rem]">
         <h3 className="text-base-title text-lg font-bold">
           Cafés selecionados
         </h3>

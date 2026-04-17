@@ -30,9 +30,9 @@ export function CoffeeCart({ id, image, title, price, amount }: CoffeeCartProps)
   
 
   return (
-    <div className="flex items-start justify-between">
+    <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
       {/* DETALHES CAFÉ */}
-      <div className="flex gap-5">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-5">
         <img src={image} className="w-16 h-16" />
         
         <div className="flex flex-col gap-2">
